@@ -9,7 +9,7 @@ class Config(object):
     API_HASH = os.getenv("API_HASH", "a52a1840c7fcd4d584ee8b710ff98c0d")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5705814916:AAHrk1KCWMGMC6LhUV84JY6Raw8ifk3g-As")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Maxx_Seaching_Bot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOGsBu4VEAqJS3wmkXKANQ87_LgfE7aceLDRIivUf--dULhGrCaQ0UWeZsVjJYcL2FcHFRxjXQXB4ba0S8KOkIS4wMF0xwaXSkiyAHEZ7UYaWQYdWVG1gWfahqPOf7uMnZy2OLngT37izQVVgc21mzGHXjOb-WkLuzGcZpk3cw-Ayc8PG8XR_PHwJrjrpJxjNyGWFkIj61uxcwm6xnbmZYZb4fkXYcnRuvVcV_dQwf_9R32v7FudwchQR5c7VUsFQnqDnf5-V4BArIcrQvykiiXnoxOQ8ISs2G2clju5F63UA_nwNclObaLV5abUEhOeSOtNttrLEZfiRV6ImgL_ATz8NMZ0=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOGsBu3GQW7mbaMmI_nu4rGlQ6Gt_4TBzKed0ULbXxlMfrGfxJUVpitgYsu7Q2kbFaVNzEWCo5QjY2mMsI0Vd08eUwV3Rp6KeWC6tPnFBsdsivgp80idtDqbuL3pwHtN2g97Sg6ZbP61N4siFI7OdM5eHqzHwidCggcBMQ8Zm8OFrhCimj6itpzFnPzuesUBMuOt1hzIziOUwMStoJg9csBblbSXWnwYeeyBGN2BmUnP3g4ZMQsqgd79TYmWUB9z3bY4SG1tkq93T4pt-9tuxcccqKIjokbWhAF16DaCoRQR1_KhexXLiDzf1krhP7a6rL_nbBVgt0VEyJqtSgu6IKtdInS0=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001873216550")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "Maxx_Seaching_Bot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "2061410793"))
@@ -23,7 +23,7 @@ I ᴀᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ 🔍.
 I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Eᴠᴇʀʏ Mᴏᴠɪᴇ Iɴ Mᴅɪsᴋ Lɪɴᴋ 🔗
 
 Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" ) 
-    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/73d352204b6eb9cea95e4.jpg")
+    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/b641b578a2c03213373d8.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
