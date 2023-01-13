@@ -7,7 +7,7 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "20250369"))
     API_HASH = os.getenv("API_HASH", "a52a1840c7fcd4d584ee8b710ff98c0d")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5660564414:AAE2Hem9t5uouIXHlMMV6Rq-D8A8L1k5ku8")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5705814916:AAHrk1KCWMGMC6LhUV84JY6Raw8ifk3g-As")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Maxx_Seaching_Bot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001873216550")) 
