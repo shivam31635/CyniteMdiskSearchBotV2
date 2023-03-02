@@ -119,7 +119,7 @@ async def button(bot, cmd: CallbackQuery):
             ], 
                                         [
                         InlineKeyboardButton("How To Watch?", callback_data="Watch_msg"),
-                        InlineKeyboardButton('Support', url='http://t.me/messagecontactbot')
+                        InlineKeyboardButton('Support', url='http://t.me/Rakesh_Owner_Bot')
                     ]
                 ]
             ),
@@ -189,7 +189,7 @@ async def button(bot, cmd: CallbackQuery):
             ], 
                                         [
                         InlineKeyboardButton("Terabox", callback_data="Terabox_msg"),
-                        InlineKeyboardButton('Watch Video', url='https://t.me/CyniteBackup/17')
+                        InlineKeyboardButton('Watch Video', url='https://t.me/dulink_file_open')
                     ],[
                         InlineKeyboardButton("Back", callback_data="Watch_msg")
                     ]
