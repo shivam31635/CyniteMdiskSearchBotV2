@@ -5,11 +5,11 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "22968731"))
-    API_HASH = os.getenv("API_HASH", "a5ca45b642f579481a244c836b164009")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5705814916:AAH8kvcS5EpAJQ6F5sTGcjPe1ZGvMh3EzvI")
+    API_ID = int(os.getenv("API_ID", ""))
+    API_HASH = os.getenv("API_HASH", "")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Maxx_Seaching_Bot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKkBu32fcZGyrQgkURH26Qx_X1_ZIBRp8nE3SiJ6y2X2MKkjzmbOlva5udpdwiCTiWTc6cT_V3VAOnYEETKRqkQXygPYnvE6kZFohN_hYI40M9IFMIwTN_ZcfGCHclDcN0A6dqet5eRzIdbj3v0wl-VYNrUF4N725YYCbdA2RUhlFOzFi18R7-j66z-JQ9_9kgIFefsrxQdIwPdBDubQH-H5txaU59FHxnVzGBGslCmrs-eh_gL5hO_E-6ITWNPr6oXPh63A05ap-0K02T0VbI3lga_xHBa4q_JRVUzPwWhqfvSilv02M00RPB0U-h0va2Vd2qPS8ufIUh92EUZ6MfuyPZ4=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001818361226")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "Maxx_Seaching_Bot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "2061410793"))
