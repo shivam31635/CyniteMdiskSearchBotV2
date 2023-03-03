@@ -28,7 +28,7 @@ class Config(object):
 @Rakesh_Owner_Bot
 
 """ ) 
-    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/44e7072ec7355745a4ab5.jpg")
+    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/80cc1e5c3ff52875f26c5.mp4")
     HOME_TEXT = os.getenv("HOME_TEXT", """ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝚃𝙷𝙴𝚁𝙴 𝚈𝙾𝚄 𝙻𝙸𝙽𝙺𝚂.
