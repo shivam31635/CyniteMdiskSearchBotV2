@@ -40,7 +40,7 @@ class Config(object):
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "Technical_rakesh_01")
-    FORCE_SUB = os.getenv("FORCE_SUB", "True")
+    FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "fY4fnY9kkWCwfra5bYcE")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
