@@ -270,13 +270,10 @@ async def addb_handler(c, m: Message):
         ],
 
     ])      
-                ],
-
-    ])      
 
             await c.send_message(Config.LOG_CHANNEL,  f"Join the channel and then alllow. \n\n#NewDBChannel\n\nDB Chnl Invite Link: {invite_link.invite_link}\nGroup:`{group_id}`\n\nNote: This group has been already has access", reply_markup=REPLY_MARKUP)
             return await m.reply_text("Database Channel Request Sent successfully. Wait for the admin to approve the Your Database channel. You will be notified In Your Privately From The Bot", )
         else:
             return await m.reply_text("Make the bot admin in the channel and /database -100xxx")
     else:
-        return await m.reply_text("Your group does not have access to this command. Please Get /License Again For access")         
+        return await m.reply_text("Your group does not have access to this command. Please Get /License Again For access")
