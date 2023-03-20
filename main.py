@@ -105,7 +105,7 @@ async def message_handler(event):
             answer = f'''** 𝚃𝙷𝙸𝚂  𝙼𝙾𝚅𝙸𝙴  𝙸𝚂  𝙽𝙾𝚃  𝚈𝙴𝚃  𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳  𝙾𝚁  𝙰𝙳𝙳𝙴𝙳  𝚃𝙾  𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴.**'''
 
             newbutton = [Button.url('❣ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴏᴡɴᴇʀ ❣',
-                                    f'https://telegram.dog/Rakesh_Owner_Bot')]
+                                    f'https://telegram.dog/crezydevelopersbot')]
 
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
@@ -125,7 +125,7 @@ async def message_handler(event):
             title=event.text,
             author=Config.BOT_USERNAME
         )
-        message = f'**𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 👇 For "{event.text}"**\n\n[📽🔎 {str(event.text).upper()}\n📽🔎 {str("Click me for results").upper()}]({tgraph_result})'
+        message = f'**𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 👇  "{event.text}"**\n\n[📽🔎 {str(event.text).upper()}\n📽🔎 {str("Click me for results").upper()}]({tgraph_result})'
 
         newbutton = [Button.url('♻️𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃♻️',
                                     f'https://t.me/dulink_file_open')]
