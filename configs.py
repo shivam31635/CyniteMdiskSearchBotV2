@@ -44,13 +44,22 @@ class Config(object):
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "fY4fnY9kkWCwfra5bYcE")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
-    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """𝙸 𝙾𝙽𝙻𝚈 𝚂𝙷𝙰𝚁𝙴 𝚃𝙷𝙴 𝙿𝙾𝚂𝚃 𝙵𝚁𝙾𝙼 𝙿𝙴𝙾𝙿𝙻𝙴'𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻! 
+    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """𝐇𝐎𝐖  𝐓𝐎  𝐔𝐒𝐄  𝐁𝐎𝐓  𝐈𝐍  𝐆𝐑𝐎𝐔𝐏 !!
 
-𝚆𝙷𝙾 𝙼𝙰𝙳𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽 𝙸𝙽 𝚃𝙷𝙰𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻, 
 
-𝙸 𝙽𝙾𝚃 𝚂𝚃𝙾𝚁𝙴 𝙰𝙽𝚈 𝙵𝙸𝙻𝙴 𝙾𝚁 𝚃𝙴𝚇𝚃 𝙸𝙽 𝙼𝚈 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴.
+🗣  ᴀᴅᴅ  ʙᴏᴛ  ᴀꜱ  ᴀᴅᴍɪɴ  ɪɴ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ.
 
-𝙳𝙼 𝙵𝙾𝚁 𝙰𝙽𝚈 𝚀𝚄𝙴𝚁𝚈 @Rakesh_Owner_Bot 🤖""" )
+🗣  ᴛʏᴘᴇ  "/License "  ɪɴ  ɢʀᴏᴜᴘ.
+
+🗣  ᴡᴀɪᴛ  ᴜɴᴛɪʟ  ʏᴏᴜʀ  ʀᴇǫᴜᴇꜱᴛ  ɪꜱ  ᴀᴘᴘʀᴏᴠᴇᴅ  ʙʏ  ᴏᴡɴᴇʀ.
+
+🗣  ɪꜰ  ʏᴏᴜ  ᴡᴀɴᴛ  ᴛᴏ  ᴜꜱᴇ  ʏᴏᴜʀ  ʟɪɴᴋꜱ  ɪɴ  ɢʀᴏᴜᴘ  ᴛʜᴇɴ   👇  👇  
+
+🗣  ʙᴜʏ  ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ  ₹ 49/ᴍᴏɴᴛʜ.
+
+•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°
+
+𝐍𝐎𝐓𝐄 :  ɪꜰ  ʏᴏᴜʀ  ʀᴇǫᴜᴇꜱᴛ  ɪꜱ  ɴᴏᴛ  ᴀᴄᴄᴇᴘᴛ  ᴛʜᴇɴ   👇  👇""" )
     
     ABOUT_HELP_TEXT = """
 
