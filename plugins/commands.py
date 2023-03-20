@@ -11,11 +11,10 @@ async def help_handler(_, event: Message):
         reply_markup=InlineKeyboardMarkup([
             [
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
-            InlineKeyboardButton('main channel', url='https://t.me/dulink_file_open'),
-            ]
-            
+            ],
+
              [InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓 📝", callback_data="About_msg"),
-             InlineKeyboardButton("𝐒𝐄𝐀𝐑𝐂𝐇 🔎", url='https://telegram.dog/only_botz')
+             InlineKeyboardButton("𝐇𝐄𝐋𝐏🤦", callback_data="Help_msg")
              ]
         ])
     )                        
@@ -35,11 +34,11 @@ async def mdisk_handler(_, event: Message):
     await event.reply_text(Config.ABOUT_MDISK_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
 
              [InlineKeyboardButton("TeraBox", callback_data="Terabox_msg"),
-             InlineKeyboardButton('Watch Video', url='https://t.me/dulink_file_open')
+             InlineKeyboardButton('Watch Video', url='https://t.me/CyniteBackup/17')
              ]
         ])
     )
@@ -49,7 +48,7 @@ async def terabox_handler(_, event: Message):
     await event.reply_text(Config.ABOUT_TERABOX_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
 
              [InlineKeyboardButton("Mdisk", callback_data="Mdisk_msg"),
@@ -69,7 +68,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url=f'https://t.me/TG_TR_support_bot')
+            InlineKeyboardButton('Support', url=f'https://t.me/Cynitesupport')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -173,7 +172,6 @@ async def total_users(_, event: Message):
     total_users = await db.total_users_count()
     msg = f"""
     Users: {total_users} users
-
     """
     await event.reply_text(msg)
 
@@ -184,11 +182,11 @@ async def start_handler(_,event: Message):
         caption=Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
 
-             [InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓📝", callback_data="About_msg"),
-             InlineKeyboardButton("𝐒𝐄𝐀𝐑𝐂𝐇 🔎", url='https://telegram.dog/only_botz')
+             [InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓 📝", callback_data="About_msg"),
+             InlineKeyboardButton("𝐇𝐄𝐋𝐏🤦", callback_data="Help_msg")
              ]
         ])
     )
@@ -279,3 +277,4 @@ async def addb_handler(c, m: Message):
             return await m.reply_text("Make the bot admin in the channel and /database -100xxx")
     else:
         return await m.reply_text("Your group does not have access to this command. Please Get /License Again For access")
+Footer
