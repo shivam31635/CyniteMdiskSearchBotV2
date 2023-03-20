@@ -13,8 +13,8 @@ async def help_handler(_, event: Message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
 
-             [InlineKeyboardButton("About", callback_data="About_msg"),
-             InlineKeyboardButton("Help", callback_data="Help_msg")
+             [InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓 📝", callback_data="About_msg"),
+             InlineKeyboardButton("𝐇𝐄𝐋𝐏🤦", callback_data="Help_msg")
              ]
         ])
     )                        
@@ -34,7 +34,7 @@ async def mdisk_handler(_, event: Message):
     await event.reply_text(Config.ABOUT_MDISK_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
 
              [InlineKeyboardButton("TeraBox", callback_data="Terabox_msg"),
@@ -48,7 +48,7 @@ async def terabox_handler(_, event: Message):
     await event.reply_text(Config.ABOUT_TERABOX_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
 
              [InlineKeyboardButton("Mdisk", callback_data="Mdisk_msg"),
@@ -68,7 +68,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/TG_TR_support_bot')
+            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url=f'https://t.me/TG_TR_support_bot')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -183,11 +183,11 @@ async def start_handler(_,event: Message):
         caption=Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
 
-             [InlineKeyboardButton("About", callback_data="About_msg"),
-             InlineKeyboardButton("Help", callback_data="Help_msg")
+             [InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓📝", callback_data="About_msg"),
+             InlineKeyboardButton("𝐇𝐄𝐋𝐏🤦", callback_data="Help_msg")
              ]
         ])
     )
