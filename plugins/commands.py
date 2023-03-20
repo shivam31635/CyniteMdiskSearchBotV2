@@ -68,7 +68,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url=f'https://t.me/Rakesh_Owner_bot')
+            InlineKeyboardButton('Support', url=f'https://t.me/Cynitesupport')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -172,6 +172,7 @@ async def total_users(_, event: Message):
     total_users = await db.total_users_count()
     msg = f"""
     Users: {total_users} users
+
     """
     await event.reply_text(msg)
 
@@ -265,8 +266,7 @@ async def addb_handler(c, m: Message):
             InlineKeyboardButton('Deny', callback_data=f'dbdeny_access#{m.from_user.id}#{db_channel}'),
         ],
         [
-          
-  
+            
             InlineKeyboardButton('Close', callback_data=f'delete'),
         ],
 
