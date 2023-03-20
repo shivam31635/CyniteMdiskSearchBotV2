@@ -102,14 +102,10 @@ async def message_handler(event):
             finalsearch.append(msg)
 
         if c <= 0:
-            answer = f'''** Sorry {event.sender.first_name} No Results Found For {event.text}**
+            answer = f'''** 𝚃𝙷𝙸𝚂  𝙼𝙾𝚅𝙸𝙴  𝙸𝚂  𝙽𝙾𝚃  𝚈𝙴𝚃  𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳  𝙾𝚁  𝙰𝙳𝙳𝙴𝙳  𝚃𝙾  𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴.**'''
 
-**Please check the spelling on** [Google](http://www.google.com/search?q={event.text.replace(' ', '%20')}%20Movie) 🔍
-**Click On The Help To Know How To Watch**
-    '''
-
-            newbutton = [Button.url('Help🙋',
-                                    f'http://t.me/Rakesh_Owner_Bot')]
+            newbutton = [Button.url('❣ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴏᴡɴᴇʀ ❣',
+                                    f'https://telegram.dog/Rakesh_Owner_Bot')]
 
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
@@ -174,7 +170,7 @@ print(f"""
  _____________________________________________   
 |                                             |  
 |          Deployed Successfully              |  
-|              Join @{Config.UPDATES_CHANNEL_USERNAME}                 |
+|              Join @only_botz                
 |_____________________________________________|
     """)
 
