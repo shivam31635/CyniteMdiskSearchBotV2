@@ -11,10 +11,11 @@ async def help_handler(_, event: Message):
         reply_markup=InlineKeyboardMarkup([
             [
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
-            ],
-
+            InlineKeyboardButton('main channel', url='https://t.me/dulink_file_open')
+            ]
+            
              [InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓 📝", callback_data="About_msg"),
-             InlineKeyboardButton("𝐇𝐄𝐋𝐏🤦", callback_data="Help_msg")
+             InlineKeyboardButton("𝐒𝐄𝐀𝐑𝐂𝐇 🔎", url='https://telegram.dog/only_botz')
              ]
         ])
     )                        
