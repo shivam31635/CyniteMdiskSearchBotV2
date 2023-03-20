@@ -265,7 +265,8 @@ async def addb_handler(c, m: Message):
             InlineKeyboardButton('Deny', callback_data=f'dbdeny_access#{m.from_user.id}#{db_channel}'),
         ],
         [
-            
+          
+  
             InlineKeyboardButton('Close', callback_data=f'delete'),
         ],
 
