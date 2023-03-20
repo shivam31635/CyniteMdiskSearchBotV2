@@ -127,7 +127,7 @@ async def message_handler(event):
         )
         message = f'**𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 👇 For "{event.text}"**\n\n[📽🔎 {str(event.text).upper()}\n📽🔎 {str("Click me for results").upper()}]({tgraph_result})'
 
-        newbutton = [Button.url('How To Watch ❓',
+        newbutton = [Button.url('♻️𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃♻️',
                                     f'https://t.me/dulink_file_open')]
 
         await txt.delete()
