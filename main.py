@@ -125,7 +125,7 @@ async def message_handler(event):
             title=event.text,
             author=Config.BOT_USERNAME
         )
-        message = f'**𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 👇  "{event.text}"**\n\n[📽🔎 {str(event.text).upper()}\n📽🔎 {str("Click me for results").upper()}]({tgraph_result})'
+        message = f'**𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 👇  \n\n[📽🔎 {str(event.text).upper()}\n📽🔎 {str("Click me for results").upper()}]({tgraph_result})'
 
         newbutton = [Button.url('♻️𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃♻️',
                                     f'https://t.me/dulink_file_open')]
