@@ -25,7 +25,7 @@ class Config(object):
 𝗙ᴏʀ 𝗠ᴏʀᴇ 𝗜ɴꜰᴏ 𝗖ʟɪᴄᴋ 𝗢ɴ 𝗛ᴇʟᴘ ✅
 
 𝗠𝗔𝗗𝗘 𝗪𝗜𝗧𝗛 ❤️ 𝗕𝗬
-@Rakesh_Owner_Bot
+@crezydevelopersbot
 
 """ ) 
     START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/44e7072ec7355745a4ab5.jpg")
@@ -85,7 +85,7 @@ class Config(object):
 
 ᴀɢᴀʀ ʙᴏᴛ ᴀᴅᴍɪɴ ᴀᴘᴋᴀ ʀᴇQᴜᴇꜱᴛ ᴀᴄᴄᴇᴘᴛ ɴʜɪ ᴋᴀʀ ʀᴀʜᴇ ʜᴀɪɴ ᴛᴏ ᴜɴʜᴇ ᴘᴇʀꜱᴏɴᴀʟ ᴍꜱɢ ᴋᴀʀᴇɴ.
 
-👉 @Rakesh_Owner_Bot
+👉 @crezydevelopersbot
 
 """
 
