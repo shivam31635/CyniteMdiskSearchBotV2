@@ -37,7 +37,7 @@ async def dbgive_access_handler(c:Client,query: CallbackQuery):
             print(e)
 
         await query.edit_message_text("Database Channel Verified. Make sure you have joined the channel")
-        return await c.send_message(from_user, f"Your channel {db_channel} has been verified. @crezydevelopersbot will search posts from your Database channel in your group")
+        return await c.send_message(from_user, f"Your channel {db_channel} has been verified. @Cynite_movies_group12 will search posts from your Database channel in your group")
     except Exception as e:
         print(e)
 
@@ -74,7 +74,7 @@ async def request_access_handler(c:Client,query: CallbackQuery):
             ],
             [
                 
-                InlineKeyboardButton('↪️𝐂𝐋𝐎𝐒𝐄⤴️', callback_data=f'delete'),
+                InlineKeyboardButton('❄ 𝐂𝐋𝐎𝐒𝐄 ❄', callback_data=f'delete'),
             ],
 
         ])      
@@ -98,11 +98,11 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏𝐒 ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
                     [
-                        InlineKeyboardButton("𝐇𝐎𝐌𝐄 🏠", callback_data="gohome"),
-                        InlineKeyboardButton("𝐇𝐄𝐋𝐏🤦", callback_data="Help_msg")
+                        InlineKeyboardButton(" ♻️ HO𝐌Ξ ♻️", callback_data="gohome"),
+                        InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="Help_msg")
                     ]
                 ]
             ),
@@ -115,11 +115,11 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏𝐒 ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ], 
                                         [
                         InlineKeyboardButton("How To Watch?", callback_data="Watch_msg"),
-                        InlineKeyboardButton('Support', url='http://t.me/crezydevelopersbot')
+                        InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ 📽, url='http://t.me/movieproviderrbot')
                     ]
                 ]
             ),
@@ -132,11 +132,11 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                                        [
-            InlineKeyboardButton('➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏𝐒 ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
                     [
-                        InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓 📝", callback_data="About_msg"),
-                        InlineKeyboardButton("𝐇𝐄𝐋𝐏🤦", callback_data="Help_msg")
+                        InlineKeyboardButton("♻️ ΛBOUT ♻️", callback_data="About_msg"),
+                        InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="Help_msg")
                     ]
                 ]
             ),
@@ -149,7 +149,7 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏𝐒 ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ], 
                                         [
                         InlineKeyboardButton("Mdisk", callback_data="Mdisk_msg"),
@@ -166,7 +166,7 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏𝐒 ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ], 
                                         [
                         InlineKeyboardButton("Mdisk", callback_data="Mdisk_msg"),
@@ -185,7 +185,7 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏𝐒 ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ], 
                                         [
                         InlineKeyboardButton("Terabox", callback_data="Terabox_msg"),
