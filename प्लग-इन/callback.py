@@ -119,7 +119,7 @@ async def button(bot, cmd: CallbackQuery):
             ], 
                                         [
                         InlineKeyboardButton("How To Watch?", callback_data="Watch_msg"),
-                        InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ 📽, url='http://t.me/movieproviderrbot')
+                        InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ 📽', url='http://t.me/movieproviderrbot')
                     ]
                 ]
             ),
