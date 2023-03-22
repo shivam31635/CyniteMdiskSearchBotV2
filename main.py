@@ -105,7 +105,7 @@ async def message_handler(event):
             answer = f'''** 𝚃𝙷𝙸𝚂  𝙼𝙾𝚅𝙸𝙴  𝙸𝚂  𝙽𝙾𝚃  𝚈𝙴𝚃  𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳  𝙾𝚁  𝙰𝙳𝙳𝙴𝙳  𝚃𝙾  𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴.**'''
 
             newbutton = [Button.url('❣ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴏᴡɴᴇʀ ❣',
-                                    f'https://telegram.dog/crezydevelopersbot')]
+                                    f'https://telegram.dog/movieproviderrbot')]
 
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
